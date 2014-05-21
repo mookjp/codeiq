@@ -7,6 +7,9 @@ AegeanSea1.csv,1
 AegeanSea2.csv,2
 AegeanSea3.csv,3
 
+AegeanSea1.csv,3
+AegeanSea2.csv,59
+AegeanSea3.csv,337
 
 ■あなたが書いたコードの内容や工夫した点について簡潔に説明してください。こちらも評価対象となります。
 
@@ -15,8 +18,7 @@ AegeanSea3.csv,3
 
 ■あなたが書いたJavaのバージョンを教えてください。
 
-
-
+1.8
 
 ■あなたが書いたコードそのものを貼り付けてください。
 
