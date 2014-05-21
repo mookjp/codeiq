@@ -1,6 +1,6 @@
+import io.github.mookjp.codeiq.aegeansea.Reader;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -17,9 +17,6 @@ public class ReaderTest {
 
         // Execute
         List<int[]> list = new Reader(filePath).getIslePositions();
-        for (int[] i : list) {
-            System.out.println(Arrays.toString(i));
-        }
 
         assertThat(list, hasItem(new int[] {1,1}));
         assertThat(list, hasItem(new int[] {2,1}));

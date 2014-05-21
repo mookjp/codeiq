@@ -1,3 +1,5 @@
+package io.github.mookjp.codeiq.aegeansea;
+
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;

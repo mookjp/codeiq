@@ -1,3 +1,5 @@
+package io.github.mookjp.codeiq.aegeansea;
+
 import java.util.List;
 
 /**
