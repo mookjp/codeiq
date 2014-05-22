@@ -1,0 +1,147 @@
+������͉𓚗p�e�L�X�g�t�@�C���ł��B
+
+��gutenberg.csv����"STAY HUNGRY, STAY FOOLISH"�Ƃ������������o���Ă��������B
+�����͊����̂���ꏊ�ԍ���(�c�ԍ�,���ԍ�)�ŏ����Ă��������B
+�L���)
+1,4
+2,1
+1,6
+5,2
+5,4
+2,2
+3,4
+4,5
+5,1
+4,3
+1,1
+2,5
+6,1
+2,4
+6,6
+
+���Ȃ��̓���)
+
+[5, 19] = S
+[7, 19] = T
+[14, 19] = A
+[12, 19] = Y
+[9, 19] =  
+[15, 17] = H
+[10, 19] = U
+[1, 18] = N
+[17, 19] = G
+[16, 17] = R
+[2, 17] = Y
+[15, 14] = ,
+[11, 17] =  
+[10, 18] = S
+[2, 19] = T
+[18, 18] = A
+[1, 17] = Y
+[4, 17] =  
+[15, 19] = F
+[17, 18] = O
+[8, 18] = O
+[3, 19] = L
+[7, 18] = I
+[12, 17] = S
+[7, 16] = H
+
+
+
+�����Ȃ����������R�[�h�̓��e��H�v�����_���Ȍ��ɏ����Ă��������B��������]���Ώۂł��B
+
+
+
+�����Ȃ���������Java�̃o�[�W�����������Ă��������B
+
+1.8
+
+�����Ȃ����������R�[�h���̂��̂�\��t���Ă��������B�K�X�R�����g���R�[�h�ɂ��Ă��������B
+
+
+
+package io.github.mookjp.codeiq.gutenberg;
+
+import java.util.*;
+
+/**
+ */
+public class GutenBerg {
+
+    public static void main(String[] args) {
+        String keyword = args[0];
+        String filePath = args[1];
+
+        Map<String, Stack<int[]>> strMap = new BoxReader(filePath).read();
+        for (String s :keyword.split("")) {
+            int[] position = strMap.get(s).pop();
+
+            System.out.println(Arrays.toString(position) + " = " + s);
+        }
+    }
+}
+
+package io.github.mookjp.codeiq.gutenberg;
+
+import org.apache.commons.lang.StringUtils;
+
+import java.io.*;
+import java.util.*;
+import java.util.stream.Collectors;
+
+/**
+ * 活字のCSVを読み込みます。
+ */
+public class BoxReader {
+    String filePath;
+    Map<String, Stack<int[]>> strMap;
+
+    public BoxReader(String filePath) {
+        this.filePath = filePath;
+        read();
+    }
+
+    /**
+     * CSVを読み込んで、文字をキー、座標のStackをバリューにしたMapを返します。
+     *
+     * @return 文字をキー、座標のStackをバリューにしたMa
+     */
+    public Map<String, Stack<int[]>> read() {
+        InputStream is = null;
+        try {
+            is = new FileInputStream(new File((this.filePath)));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            throw new RuntimeException(e);
+        }
+
+        // CSVをパースします。
+        // CSV1行ごとのListを作成します。
+        BufferedReader br = new BufferedReader(new InputStreamReader(is));
+        List<String[]> list = br.lines()
+                .map(s -> StringUtils.strip(s).split("\",\""))
+                .collect(Collectors.toList());
+
+        // 文字のMapを作成します
+        strMap = new HashMap<>();
+        int yCount = 0;
+        for (String[] array : list) {
+            int xCount = 0;
+            for (String s : array) {
+                if (strMap.keySet().contains(s)) {
+                    Stack<int[]> posStack = strMap.get(s);
+                    posStack.add(new int[]{xCount, yCount});
+                } else {
+                    Stack<int[]> posStack = new Stack<>();
+                    posStack.add(new int[]{xCount, yCount});
+                    strMap.put(s, posStack);
+                }
+                xCount++;
+            }
+            yCount++;
+        }
+        return strMap;
+    }
+}
+

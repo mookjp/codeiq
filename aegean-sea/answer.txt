@@ -1,8 +1,8 @@
-¦‚±‚ê‚Í‰ğ“š—pƒTƒ“ƒvƒ‹ƒtƒ@ƒCƒ‹‚Å‚·B
+ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í‰ğ“š—pï¿½Tï¿½ï¿½ï¿½vï¿½ï¿½ï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½Å‚ï¿½ï¿½B
 
-¡uCSVƒtƒ@ƒCƒ‹–¼v‚Æu“‡‚ÌŒÅ‚Ü‚èv‚Ì”‚ğƒJƒ“ƒ}‹æØ‚è‚Å‘‚¢‚Ä‚­‚¾‚³‚¢B
-uCSVƒtƒ@ƒCƒ‹–¼v‚Æu“‡‚ÌŒÅ‚Ü‚èv‚Í1ƒZƒbƒg‚Æ‚µA1s‚É1ƒZƒbƒg‚¸‚Â‰üs‚µ‚Ä‘‚¢‚Ä‚­‚¾‚³‚¢B
-‹L“ü—áj
+ï¿½ï¿½ï¿½uCSVï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Æuï¿½ï¿½ï¿½ÌŒÅ‚Ü‚ï¿½vï¿½Ìï¿½ï¿½ï¿½ï¿½Jï¿½ï¿½ï¿½}ï¿½ï¿½Ø‚ï¿½Åï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½uCSVï¿½tï¿½@ï¿½Cï¿½ï¿½ï¿½ï¿½ï¿½vï¿½Æuï¿½ï¿½ï¿½ÌŒÅ‚Ü‚ï¿½vï¿½ï¿½1ï¿½Zï¿½bï¿½gï¿½Æ‚ï¿½ï¿½A1ï¿½sï¿½ï¿½1ï¿½Zï¿½bï¿½gï¿½ï¿½ï¿½Â‰ï¿½sï¿½ï¿½ï¿½Äï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
+ï¿½Lï¿½ï¿½ï¿½j
 AegeanSea1.csv,1
 AegeanSea2.csv,2
 AegeanSea3.csv,3
@@ -11,17 +11,153 @@ AegeanSea1.csv,3
 AegeanSea2.csv,59
 AegeanSea3.csv,337
 
-¡‚ ‚È‚½‚ª‘‚¢‚½ƒR[ƒh‚Ì“à—e‚âH•v‚µ‚½“_‚É‚Â‚¢‚ÄŠÈŒ‰‚Éà–¾‚µ‚Ä‚­‚¾‚³‚¢B‚±‚¿‚ç‚à•]‰¿‘ÎÛ‚Æ‚È‚è‚Ü‚·B
+ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½Ì“ï¿½ï¿½eï¿½ï¿½Hï¿½vï¿½ï¿½ï¿½ï¿½ï¿½_ï¿½É‚Â‚ï¿½ï¿½ÄŠÈŒï¿½ï¿½Éï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Bï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½]ï¿½ï¿½ï¿½ÎÛ‚Æ‚È‚ï¿½Ü‚ï¿½ï¿½B
 
 
 
 
-¡‚ ‚È‚½‚ª‘‚¢‚½Java‚Ìƒo[ƒWƒ‡ƒ“‚ğ‹³‚¦‚Ä‚­‚¾‚³‚¢B
+ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Javaï¿½Ìƒoï¿½[ï¿½Wï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
 1.8
 
-¡‚ ‚È‚½‚ª‘‚¢‚½ƒR[ƒh‚»‚Ì‚à‚Ì‚ğ“\‚è•t‚¯‚Ä‚­‚¾‚³‚¢B
+ï¿½ï¿½ï¿½ï¿½ï¿½È‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Rï¿½[ï¿½hï¿½ï¿½ï¿½Ì‚ï¿½ï¿½Ì‚ï¿½\ï¿½ï¿½tï¿½ï¿½ï¿½Ä‚ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½B
 
+package io.github.mookjp.codeiq.aegeansea;
 
+import java.util.List;
 
+/**
+ * ãƒ¡ã‚¤ãƒ³ã‚¯ãƒ©ã‚¹ã§ã™ã€‚
+ * CSVãƒ•ã‚¡ã‚¤ãƒ«ã®ãƒ‘ã‚¹ã‚’å¼•æ•°ã«å–ã‚Šã€ãƒ•ã‚¡ã‚¤ãƒ«åã¨å³¶ã®å¡Šã®æ•°ã‚’å‡ºåŠ›ã—ã¾ã™ã€‚
+ */
+public class AegeanSeaCounter {
+
+    public static void main(String[] args) {
+        for (String path : args) {
+            List<int[]> isleList = new Reader(path).getIslePositions();
+            int isleCount = Counter.countIsle(isleList);
+
+            System.out.println(path + "," + isleCount);
+        }
+    }
+}
+
+package io.github.mookjp.codeiq.aegeansea;
+
+import java.util.Arrays;
+import java.util.List;
+
+/**
+ * å³¶ã®å¡Šã®æ•°ã‚’æ•°ãˆã‚‹ã‚¯ãƒ©ã‚¹ã§ã™ã€‚
+ */
+public class Counter {
+
+    /**
+     * å³¶ã®ã‚ã‚‹åº§æ¨™ã®Listã‚’å¼•æ•°ã«ã¨ã‚Šã€å¡Šã¨åˆ¤å®šã•ã‚Œã‚‹å³¶ã®æ•°ã‚’è¿”ã—ã¾ã™ã€‚
+     *
+     * å³¶ãŒä¸Šä¸‹å·¦å³ã«ã‚ã‚‹å ´åˆã€ãã“ã¯èˆ¹ãŒé€šã‚Œãªã„ã®ã§ã²ã¨ã¤ã®ã€Œå³¶ã®å›ºã¾ã‚Šã€ã¨ã—ã¦æ•°ãˆã¾ã™ã€‚
+     * å³¶ãŒæ–œã‚ã«ä¸¦ã‚“ã§ã„ã‚‹å ´åˆã€ãã“ã¯èˆ¹ãŒé€šã‚Œã‚‹ã®ã§ã€å›ºã¾ã‚Šã¨ã¯æ•°ãˆã¾ã›ã‚“ã€‚
+     *
+     * @param isles å³¶ã®ã‚ã‚‹åº§æ¨™ã®List
+     * @return å³¶ã®å¡Šã¨åˆ¤å®šã•ã‚Œã‚‹å³¶ã®æ•°
+     */
+    public static int countIsle(List<int[]> isles) {
+        int count = 0;
+
+        if (isles.isEmpty()) return count;
+
+        // å³¶ã®éš£ã«å³¶ãŒã‚ã£ãŸã‚‰ã€ã‚«ã‚¦ãƒ³ãƒˆã—ã¾ã™
+        for (int[] pos : isles) {
+            for (int[] targetPos: isles) {
+                if (Arrays.equals(targetPos, up(pos)) ||
+                        Arrays.equals(targetPos, down(pos)) ||
+                        Arrays.equals(targetPos, right(pos)) ||
+                        Arrays.equals(targetPos, left((pos)) )) {
+                    count++;
+                    break;
+                }
+            }
+        }
+        return count;
+    }
+
+    public static int[] up(int pos[]) {
+        return new int[] {pos[0], pos[1] - 1};
+    }
+
+    public static int[] down(int pos[]) {
+        return new int[] {pos[0], pos[1] + 1};
+    }
+
+    public static int[] right(int pos[]) {
+        return new int[] {pos[0] + 1, pos[1]};
+    }
+
+    public static int[] left(int pos[]) {
+        return new int[] {pos[0] - 1, pos[1]};
+    }
+}
+
+package io.github.mookjp.codeiq.aegeansea;
+
+import java.io.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
+/**
+ * ãƒ•ã‚¡ã‚¤ãƒ«ã‚’èª­ã¿è¾¼ã‚€ã‚¯ãƒ©ã‚¹ã§ã™ã€‚
+ */
+public class Reader {
+    protected String filePath;
+
+    public Reader(String filePath) {
+        this.filePath = filePath;
+    }
+
+    /**
+     * å³¶ã®åº§æ¨™ã‚’è¡¨ã™é…åˆ—ã‚’å«ã‚€Listã‚’è¿”ã—ã¾ã™ã€‚
+     * ä¾‹ï¼‰ AegeanSea1.csvã®å ´åˆã€Listã®å†…å®¹ã¯ä»¥ä¸‹ã«ãªã‚Šã¾ã™ã€‚
+     * [1, 1]
+     * [2, 1]
+     * [1, 2]
+     * [4, 3]
+     * [3, 4]
+     *
+     * @return å³¶ã®åº§æ¨™ã‚’è¡¨ã™é…åˆ—ã‚’å«ã‚€List
+     */
+    public List<int[]> getIslePositions() {
+        InputStream is = null;
+        try {
+            is = new FileInputStream(new File((this.filePath)));
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            throw new RuntimeException(e);
+        }
+
+        // CSVã‚’ãƒ‘ãƒ¼ã‚¹ã—ã¾ã™ã€‚
+        // CSV1è¡Œã”ã¨ã®Listã‚’ä½œæˆã—ã¾ã™ã€‚
+        BufferedReader br = new BufferedReader(new InputStreamReader(is));
+        List<String[]> list = br.lines()
+                .map(s -> s.split(","))
+                .collect(Collectors.toList());
+
+        // 1ãŒå«ã¾ã‚Œã‚‹{x, y}ã‚’è¦‹ã¤ã‘ãŸã‚‰Listã«è¿½åŠ ã—ã¾ã™ã€‚
+        List<int[]> isles = new ArrayList<>();
+        int yCount = 0;
+        for (String[] array : list) {
+            int xCount = 0;
+            for (String s : array) {
+                if (s.equals("1")) {
+                    int[] islePoint = {xCount, yCount};
+                    isles.add(islePoint);
+                }
+                xCount++;
+            }
+            yCount++;
+        }
+        return isles;
+    }
+
+}
 
